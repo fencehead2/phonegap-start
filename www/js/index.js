@@ -28,9 +28,8 @@ var app = {
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
 
-
-        //redirect app to localstorage
-
+        //redirect app to main app
+        window.location = 'http://clientapps.nowwhere.com.au/bp/mobile';
 
     },
     report: function (id) {
