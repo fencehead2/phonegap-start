@@ -26,7 +26,7 @@ var app = {
     deviceready: function () {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
-        app.report('deviceready');
+        //app.report('deviceready');
 
         //redirect app to main app
         window.location = 'http://clientapps.nowwhere.com.au/bp/mobile';
