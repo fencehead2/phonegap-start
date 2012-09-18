@@ -3,10 +3,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mapdataservices.hello-world"
         version   = "2.0.0">
-    <name>BarSearch</name>
+    <name>BP Everywhere Mobile</name>
 
     <description>
-        Search for bars accross Australia
+      BP Everywhere Mobile - Everywhere you need us
     </description>
 
     <author href="http://mapds.com.au" email="matthew.brunsdon@mapds.com.au">
