@@ -17,18 +17,23 @@
  * under the License.
  */
 var app = {
-    initialize: function() {
+    initialize: function () {
         this.bind();
     },
-    bind: function() {
+    bind: function () {
         document.addEventListener('deviceready', this.deviceready, false);
     },
-    deviceready: function() {
+    deviceready: function () {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
+
+
+        //redirect app to localstorage
+
+
     },
-    report: function(id) {
+    report: function (id) {
         // Report the event in the console
         console.log("Report: " + id);
 
